@@ -45,6 +45,5 @@ const navs = computed(() => {
   background: url(../../img/background2.png) no-repeat;
   background-size: 100vw 100vh;
   transition: background-color 0.3s;
-  filter: opacity(0.5);
 }
 </style>
