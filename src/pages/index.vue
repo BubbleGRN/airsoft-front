@@ -92,6 +92,7 @@
                 </v-tabs>
               </div>
             </v-toolbar>
+
             <v-tabs-window v-model="tab" style="border: 20px solid #2d4b2a">
               <v-tabs-window-item value="option-1">
                 <v-card flat class="pa-6 px-15">
@@ -104,7 +105,14 @@
 
                   <v-row>
                     <v-col cols="6" class="px-10">
-                      <h2>氣槍的特點：</h2>
+                      <h2>
+                        <img
+                          src="../../img/Icon/753942_hunting_gun_shooting_target_weapon_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        氣槍的特點：
+                      </h2>
                       <br />
                       <p class="mb-10" style="line-height: 40px">
                         動力系統：氣槍一般使用壓縮空氣、CO2或氮氣等氣體作為推動力。CO2氣瓶是最常見的選擇，因為它能提供穩定且持久的動力，讓氣槍的射擊體驗更加真實。<br />
@@ -136,7 +144,14 @@
                       ></v-img>
                     </v-col>
                     <v-col cols="6">
-                      <h2>氣槍的應用：</h2>
+                      <h2>
+                        <img
+                          src="../../img/Icon/753942_hunting_gun_shooting_target_weapon_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        氣槍的應用：
+                      </h2>
                       <br />
                       <p class="mb-10" style="line-height: 40px">
                         生存遊戲（Airsoft）：氣槍在生存遊戲中是一個重要的道具，玩家通過這些氣槍模擬戰鬥，進行團隊合作或對抗。這些遊戲通常有不同的任務目標和規則，並且注重策略和戰術。<br />
@@ -165,21 +180,42 @@
                       class="float-end"
                       style="margin-right: 200px"
                     ></v-img>
-                    <h2>防彈背心/防護衣：</h2>
+                    <h2>
+                      <img
+                        src="../../img/Icon/8542657_vest_clothes_icon.png"
+                        width="2%"
+                        style="vertical-align: -6px"
+                      />
+                      防彈背心/防護衣：
+                    </h2>
                     <br />
                     <p class="mb-10" style="line-height: 40px">
                       這類護具主要用來保護上半身，尤其是胸部和腹部，減少來自槍械或其他武器的傷害。<br />
                       在一些遊戲中，防彈背心可能會提供額外的防護層數，增加承受多次攻擊的能力。<br />
                     </p>
 
-                    <h2>護腿/護膝：</h2>
+                    <h2>
+                      <img
+                        src="../../img/Icon/8542657_vest_clothes_icon.png"
+                        width="2%"
+                        style="vertical-align: -6px"
+                      />
+                      護腿/護膝：
+                    </h2>
                     <br />
                     <p class="mb-10" style="line-height: 40px">
                       護腿或護膝主要用來保護下半身，特別是大腿和膝蓋部位，對於減少跌倒或被擊中後的傷害有一定效果。<br />
                       一些遊戲中，護腿還能增加角色的移動速度或抗擊打能力。<br />
                     </p>
 
-                    <h2>護手/手套：</h2>
+                    <h2>
+                      <img
+                        src="../../img/Icon/8542657_vest_clothes_icon.png"
+                        width="2%"
+                        style="vertical-align: -6px"
+                      />
+                      護手/手套：
+                    </h2>
                     <br />
                     <p class="mb-10" style="line-height: 40px">
                       護手或手套主要用來保護手部，避免在近戰攻擊中受到傷害。<br />
@@ -194,21 +230,42 @@
                       src="../../img/airsoft_glasses.gif"
                       class="float-start mr-10"
                     ></v-img>
-                    <h2>護目鏡/面罩：</h2>
+                    <h2>
+                      <img
+                        src="../../img/Icon/8542657_vest_clothes_icon.png"
+                        width="2%"
+                        style="vertical-align: -6px"
+                      />
+                      護目鏡/面罩：
+                    </h2>
                     <br />
                     <p class="mb-10" style="line-height: 40px">
                       這些裝備用來保護角色的眼睛和面部，避免受到煙霧、沙塵、化學物質或敵人攻擊的傷害。<br />
                       在一些遊戲中，護目鏡還能提供夜視或熱感應視覺等特殊功能。<br />
                     </p>
 
-                    <h2>護甲：</h2>
+                    <h2>
+                      <img
+                        src="../../img/Icon/8542657_vest_clothes_icon.png"
+                        width="2%"
+                        style="vertical-align: -6px"
+                      />
+                      護甲：
+                    </h2>
                     <br />
                     <p class="mb-10" style="line-height: 40px">
                       護甲是全面性的防護裝備，通常由金屬、合成材料或其他堅固材質製成，能有效減少來自各種武器（如刀劍、槍械等）的傷害。<br />
                       護甲的防禦能力可能會隨著材質的不同而有所差異，例如鋼鐵護甲比皮革護甲提供更高的防禦力。<br />
                     </p>
 
-                    <h2>盾牌：</h2>
+                    <h2>
+                      <img
+                        src="../../img/Icon/8542657_vest_clothes_icon.png"
+                        width="2%"
+                        style="vertical-align: -6px"
+                      />
+                      盾牌：
+                    </h2>
                     <br />
                     <p class="mb-10" style="line-height: 40px">
                       在一些生存遊戲中，盾牌是可攜帶的防禦裝備，可以用來擋住敵人的攻擊，減少傷害。<br />
@@ -219,7 +276,7 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-3">
-                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px">
                   <v-card-title>
                     <h3 style="font-style: italic; color: #2d4b2a">
                       生存遊戲中的背包用來存儲資源、工具、武器、藥品等物品，設計和功能根據遊戲不同而異，主要集中於物品管理和空間規劃。
@@ -233,7 +290,14 @@
                     src="../../img/pngegg.png"
                     class="float-end mr-10"
                   ></v-img>
-                  <h2>背包容量與格子系統</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包容量與格子系統
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     大多數生存遊戲中的背包會有固定的容量，通常以格子來表示。例如，一個背包可能有
@@ -241,7 +305,14 @@
                     格）來放置物品。每個物品佔據一定的格子，且有些物品可能會佔用多格（例如大箱子或武器）。隨著遊戲進展，玩家可能會解鎖更大的背包或增加更多的格子，從而存儲更多的物品。
                   </p>
 
-                  <h2>背包分類</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包分類
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     為了更方便管理物品，許多生存遊戲會提供物品分類功能，通常會根據物品的種類來自動或手動分類。例如：
@@ -254,7 +325,14 @@
                     這些分類能幫助玩家更快捷地找到需要的物品，減少時間浪費。
                   </p>
 
-                  <h2>背包的重量與耐力</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包的重量與耐力
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     有些遊戲會加入背包的重量系統。每個物品會有不同的重量，當玩家的背包超過一定重量時，可能會影響角色的移動速度或耐力。在這種情況下，玩家需要考慮攜帶哪些物品，避免背包過重導致移動不便或體力下降。
@@ -266,31 +344,66 @@
                     src="../../img/airsoft_backpack.png"
                     class="float-start mr-10"
                   ></v-img>
-                  <h2>背包管理與物品整理</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包管理與物品整理
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     隨著遊戲進程，玩家可能會遇到需要大量管理物品的情況。這時，玩家需要定期整理背包，丟棄不需要的物品、分配物品的存放位置或在背包中進行交換。這樣的物品管理系統會讓遊戲變得更加挑戰性，要求玩家不僅要收集資源，還要合理地規劃和整理物品。
                   </p>
 
-                  <h2>背包升級與擴展</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包升級與擴展
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     很多生存遊戲會讓玩家通過升級或解鎖新的背包來擴展儲物空間。這些背包升級可能需要玩家製作特定的材料或達到某些遊戲成就。例如，在某些遊戲中，玩家可能需要製作一個更大的背包，才能攜帶更多資源。背包的升級過程可能伴隨著遊戲的探索和進步，提供更多的策略選擇。
                   </p>
 
-                  <h2>背包與裝備切換</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包與裝備切換
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     在某些生存遊戲中，背包不僅僅是物品存儲的地方，還可能涉及裝備管理。例如，玩家可以在背包中選擇攜帶的武器、工具、護具等裝備，並在需要時迅速切換。這樣的系統可以讓玩家根據當前情況選擇最合適的裝備，提高生存機會。
                   </p>
 
-                  <h2>背包與安全性</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包與安全性
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     某些遊戲中的背包可能與玩家的生存或安全性息息相關。例如，玩家可能需要選擇一個防水、耐磨的背包來應對極端的環境，或者背包中可能需要特定的物品來對抗某些敵人或環境挑戰。
                   </p>
 
-                  <h2>背包損壞或丟失</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/6811929_adventure_backpack_bag_baggage_tourism_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    背包損壞或丟失
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     在某些遊戲中，背包也有可能遭遇損壞或丟失。例如，玩家可能會因為某些原因（如跌落、遭到敵人襲擊或倉庫被入侵）而失去部分物品。這樣的設計增加了遊戲的風險和挑戰，要求玩家更加小心謹慎地管理自己的背包。
@@ -299,9 +412,9 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-4">
-                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center">
                       在生存遊戲中，頭盔是常見護具之一，主要用來保護頭部，減少敵人攻擊或環境危險造成的傷害。頭盔的設計、效果及功能根據遊戲不同而異。
                     </h3>
                     <br />
@@ -313,13 +426,27 @@
                     src="../../img/airsoft_helmet.png"
                     class="float-end ml-10"
                   ></v-img>
-                  <h2>頭盔的基本功能</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9204004_army_helmet_military_protection_soldier_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    頭盔的基本功能
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     頭盔的基本功能是提供防護，尤其是防止來自槍擊、近戰武器、爆炸或其他環境危險對頭部的傷害。在許多生存遊戲中，頭部是受傷最致命的部位，因此擁有一個堅固的頭盔對提高生存機會至關重要。
                   </p>
 
-                  <h2>不同類型的頭盔</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9204004_army_helmet_military_protection_soldier_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    不同類型的頭盔
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     根據遊戲的不同，頭盔會有不同的類型與材質，每種頭盔提供的保護和效果也會不同：
@@ -334,7 +461,14 @@
                     防彈頭盔專門用來對抗槍擊或爆炸衝擊，通常比普通的頭盔更為堅固，適合面對高危險的敵人或環境。<br />
                   </p>
 
-                  <h2>頭盔的額外效果</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9204004_army_helmet_military_protection_soldier_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    頭盔的額外效果
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     在某些生存遊戲中，頭盔除了提供物理防護外，還可能提供其他特殊功能： <br />
@@ -355,19 +489,40 @@
                     src="../../img/airsoft_helmet2.png"
                     class="float-start mr-10"
                   ></v-img>
-                  <h2>耐久度與維修</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9204004_army_helmet_military_protection_soldier_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    耐久度與維修
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     許多生存遊戲中，頭盔和其他護具一樣會有耐久度，隨著時間的推移或被攻擊時，頭盔會受到損壞。玩家需要定期檢查頭盔的狀況，並在必要時進行修理或更換。這會增加遊戲的挑戰性和策略性，玩家需要考慮如何管理裝備的耐用性。
                   </p>
 
-                  <h2>頭盔與移動速度</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9204004_army_helmet_military_protection_soldier_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    頭盔與移動速度
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     在某些遊戲中，頭盔的類型可能會影響角色的移動速度。較重的金屬或防彈頭盔可能會使玩家的移動速度變慢，而輕便的頭盔則不會對移動速度造成太大影響。這意味著，玩家在選擇頭盔時需要考慮到防護與機動性之間的平衡。
                   </p>
 
-                  <h2>頭盔的搭配與選擇</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9204004_army_helmet_military_protection_soldier_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    頭盔的搭配與選擇
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     在生存遊戲中，選擇合適的頭盔往往取決於玩家的需求和遊戲的戰鬥方式。一般來說，玩家會根據所面對的敵人或環境選擇不同類型的頭盔。例如，在高風險的戰鬥中，防彈頭盔可能是必備的裝備，而在資源匱乏的情況下，輕便的頭盔可能是更實用的選擇。
@@ -376,46 +531,67 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-5">
-                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center">
                       在生存遊戲中，彈藥主要是塑膠製的BB彈，通常圓形，並可由槍枝發射。還有軟彈（泡沫彈），由泡沫或柔軟材料製成。
                     </h3>
                     <br />
                   </v-card-title>
 
-              <v-row class="pb-5">
-                <v-col cols="6" class="px-10">
-                  <h2>軟彈在生存遊戲中的使用</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    軟彈 常見於 氣動彈射武器 或 彈簧彈射武器，並且主要是以 玩具 或 娛樂性質
-                    為主的武器系統。雖然它們在某些生存遊戲中並不常見，但仍然有一些遊戲使用這類彈藥，特別是在
-                    低強度射擊 或是 家庭娛樂 的情境下。<br />
+                  <v-row class="pb-5">
+                    <v-col cols="6" class="px-10">
+                      <h2>
+                        <img
+                          src="../../img/Icon/9533496_bullet_bil_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        軟彈在生存遊戲中的使用
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        軟彈 常見於 氣動彈射武器 或 彈簧彈射武器，並且主要是以 玩具 或 娛樂性質
+                        為主的武器系統。雖然它們在某些生存遊戲中並不常見，但仍然有一些遊戲使用這類彈藥，特別是在
+                        低強度射擊 或是 家庭娛樂 的情境下。<br />
 
-                    相比傳統的BB彈，軟彈在射擊威力和精度方面有所不足，但它提供了更多的安全性和娛樂性，尤其適合兒童或對射擊強度有較低要求的玩家。
-                    <br />
-                  </p>
+                        相比傳統的BB彈，軟彈在射擊威力和精度方面有所不足，但它提供了更多的安全性和娛樂性，尤其適合兒童或對射擊強度有較低要求的玩家。
+                        <br />
+                      </p>
 
-                  <h2>BB彈的基本特徵</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1. BB彈：這是 Airsoft 遊戲中最常見的彈藥，通常由塑膠製成，直徑為 6mm 或
-                    8mm，大部分的 Airsoft 武器都使用6mm的BB彈。<br />
-                    2. 6mm BB彈：最常見的大小，適用於大多數的 Airsoft 武器。<br />
-                    3. 8mm BB彈：較少見，通常用於某些大型的 Airsoft
-                    槍枝，這些彈藥比較重，飛行穩定性較好，但因為較大，因此其速度通常較慢。<br />
-                  </p>
-                </v-col>
-                <v-col cols="6">
+                      <h2>
+                        <img
+                          src="../../img/Icon/9533496_bullet_bil_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        BB彈的基本特徵
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1. BB彈：這是 Airsoft 遊戲中最常見的彈藥，通常由塑膠製成，直徑為 6mm 或
+                        8mm，大部分的 Airsoft 武器都使用6mm的BB彈。<br />
+                        2. 6mm BB彈：最常見的大小，適用於大多數的 Airsoft 武器。<br />
+                        3. 8mm BB彈：較少見，通常用於某些大型的 Airsoft
+                        槍枝，這些彈藥比較重，飛行穩定性較好，但因為較大，因此其速度通常較慢。<br />
+                      </p>
+                    </v-col>
+                    <v-col cols="6">
                       <v-img
                         src="../../img/airsoft-bbs-and-bb-loader.jpg"
                         style="width: 100%; height: 100%; object-fit: cover"
                       ></v-img>
                     </v-col>
-                </v-row>
+                  </v-row>
 
-                  <h2>BB彈的材質</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9533496_bullet_bil_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    BB彈的材質
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -435,25 +611,39 @@
                       ></v-img>
                     </v-col>
                     <v-col cols="6">
-                  <h2>BB彈的重量</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    BB彈的重量會影響其飛行軌跡和射程，較重的BB彈可以更穩定地飛行，並且不容易受風影響，但同時會降低射擊速度。常見的重量有：
-                    <br />
-                    1. 0.12g：這種輕型BB彈常用於入門級槍械，適合短距離射擊，但精度較低。 <br />
-                    2. 0.20g：這是最常見的中等重量BB彈，適用於大多數中低功率的 Airsoft
-                    槍支，精度與射程比較平衡。 <br />
-                    3.
-                    0.25g、0.28g、0.30g：這些較重的BB彈主要用於高性能槍支，尤其是對射程和精度有較高要求的玩家。
-                    <br />
-                    4.
-                    0.40g及以上：這些超重BB彈適用於高端的狙擊槍或高精度的射擊需求，通常用於長距離射擊，飛行穩定性非常高。
-                    <br />
-                  </p>
-                </v-col>
+                      <h2>
+                        <img
+                          src="../../img/Icon/9533496_bullet_bil_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        BB彈的重量
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        BB彈的重量會影響其飛行軌跡和射程，較重的BB彈可以更穩定地飛行，並且不容易受風影響，但同時會降低射擊速度。常見的重量有：
+                        <br />
+                        1. 0.12g：這種輕型BB彈常用於入門級槍械，適合短距離射擊，但精度較低。 <br />
+                        2. 0.20g：這是最常見的中等重量BB彈，適用於大多數中低功率的 Airsoft
+                        槍支，精度與射程比較平衡。 <br />
+                        3.
+                        0.25g、0.28g、0.30g：這些較重的BB彈主要用於高性能槍支，尤其是對射程和精度有較高要求的玩家。
+                        <br />
+                        4.
+                        0.40g及以上：這些超重BB彈適用於高端的狙擊槍或高精度的射擊需求，通常用於長距離射擊，飛行穩定性非常高。
+                        <br />
+                      </p>
+                    </v-col>
                   </v-row>
 
-                  <h2>BB彈的顏色</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9533496_bullet_bil_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    BB彈的顏色
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1. 白色：最常見的顏色，視覺上較為明顯，便於觀察射擊軌跡，常見於大多數 Airsoft
@@ -465,7 +655,14 @@
                     透明或其他顏色：也有一些特殊顏色的BB彈（例如藍色、紅色等），主要是為了區分品牌或特定用途，這些顏色的BB彈並不影響性能。<br />
                   </p>
 
-                  <h2>BB彈的使用與選擇</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9533496_bullet_bil_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    BB彈的使用與選擇
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     在 Airsoft
@@ -482,7 +679,14 @@
                     <br />
                   </p>
 
-                  <h2>BB彈的保養與存儲</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9533496_bullet_bil_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    BB彈的保養與存儲
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -491,7 +695,14 @@
                     避免劣質BB彈：劣質的BB彈可能會有不規則的形狀或瑕疵，這會影響槍支的性能，甚至可能導致槍械故障。高品質的BB彈會更加平滑、圓形，從而提高射擊精度和穩定性。<br />
                   </p>
 
-                  <h2>一些常見的BB彈品牌</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/9533496_bullet_bil_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    一些常見的BB彈品牌
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     G&G、MadBull、KWA、ASG、Elite Force
@@ -502,43 +713,66 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-6">
-                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">常見的額外裝備和物品</h3>
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center">
+                      常見的額外裝備和物品
+                    </h3>
                     <br />
                   </v-card-title>
 
-              <v-row class="pb-10">
-                <v-col cols="6" class="px-10">
-                  <h2>戰術服與衣物</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    戰術服：這些衣物通常具有多口袋設計，用於攜帶額外的彈藥、工具和其他裝備。戰術服的材質通常是耐用且透氣的，適合長時間穿著。<br />
-                    常見品牌如 5.11 Tactical 和 Condor。<br />
-                    2.
-                    迷彩服：為了在遊戲中更好地融入環境，許多玩家會穿著迷彩服。迷彩服有多種樣式，根據不同的地圖環境（如森林、沙漠等）選擇合適的迷彩樣式。<br />
-                  </p>
+                  <v-row class="pb-10">
+                    <v-col cols="6" class="px-10">
+                      <h2>
+                        <img
+                          src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        戰術服與衣物
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        戰術服：這些衣物通常具有多口袋設計，用於攜帶額外的彈藥、工具和其他裝備。戰術服的材質通常是耐用且透氣的，適合長時間穿著。<br />
+                        常見品牌如 5.11 Tactical 和 Condor。<br />
+                        2.
+                        迷彩服：為了在遊戲中更好地融入環境，許多玩家會穿著迷彩服。迷彩服有多種樣式，根據不同的地圖環境（如森林、沙漠等）選擇合適的迷彩樣式。<br />
+                      </p>
 
-                  <h2>戰術腰帶與掛包</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    戰術腰帶：用來固定各種裝備和配件，如彈匣、手槍、急救包等。這些腰帶有助於提高攜帶物品的方便性。<br />
-                    2.
-                    掛包：掛包通常會用來掛在腰帶或背包上，方便快速取用彈匣、工具或其他必需品。這些包包一般是專為
-                    Airsoft 目的設計，並且多數有不同的容量和分隔，便於收納和快速存取。<br />
-                  </p>
-                </v-col>
-                <v-col cols="6">
-                  <v-img
-                    src="../../img/cover.jpg"
-                    style="width: 100%; height: 100%; object-fit: cover"
-                  ></v-img>
-                </v-col>
-              </v-row>
+                      <h2>
+                        <img
+                          src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        戰術腰帶與掛包
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        戰術腰帶：用來固定各種裝備和配件，如彈匣、手槍、急救包等。這些腰帶有助於提高攜帶物品的方便性。<br />
+                        2.
+                        掛包：掛包通常會用來掛在腰帶或背包上，方便快速取用彈匣、工具或其他必需品。這些包包一般是專為
+                        Airsoft 目的設計，並且多數有不同的容量和分隔，便於收納和快速存取。<br />
+                      </p>
+                    </v-col>
+                    <v-col cols="6">
+                      <v-img
+                        src="../../img/cover.jpg"
+                        style="width: 100%; height: 100%; object-fit: cover"
+                      ></v-img>
+                    </v-col>
+                  </v-row>
 
-                  <h2>彈匣與彈匣帶</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    彈匣與彈匣帶
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -547,13 +781,27 @@
                     彈匣帶：這是一種可掛在腰部的裝置，可以讓玩家方便快速地取用彈匣，這樣在激烈的戰鬥中能快速換彈。<br />
                   </p>
 
-                  <h2>戰術手套</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    戰術手套
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     手套：手套能提供額外的手部保護，避免因為摔倒或與物品碰撞而受傷。此外，手套還可以幫助提高抓握力，讓玩家在射擊、操作武器或攀爬時更為舒適。
                   </p>
 
-                  <h2>戰術眼鏡</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    戰術眼鏡
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1. 防護眼鏡：保護眼睛是 Airsoft 中最重要的安全措施之一，專業的 Airsoft
@@ -563,7 +811,14 @@
                     <br />
                   </p>
 
-                  <h2>耳機與對講機</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    耳機與對講機
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1. 對講機：在大型的 Airsoft
@@ -582,34 +837,62 @@
                       ></v-img>
                     </v-col>
                     <v-col cols="6">
-                      <h2>射擊瞄具</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    紅點瞄準器：這些瞄準器能幫助玩家快速定位目標，提高射擊精度，特別是在快速移動的目標上。<br />
-                    2.
-                    望遠鏡瞄準器：通常用於狙擊槍上，可以提供高倍率的放大，幫助玩家在遠距離精確擊中目標。<br />
-                  </p>
+                      <h2>
+                        <img
+                          src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        射擊瞄具
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        紅點瞄準器：這些瞄準器能幫助玩家快速定位目標，提高射擊精度，特別是在快速移動的目標上。<br />
+                        2.
+                        望遠鏡瞄準器：通常用於狙擊槍上，可以提供高倍率的放大，幫助玩家在遠距離精確擊中目標。<br />
+                      </p>
 
-                  <h2>急救包</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    急救包：生存遊戲中可能會遇到輕微的傷害或擦傷，擁有一個急救包能夠迅速處理這些小問題，避免因傷害而影響遊戲進行。急救包通常包括創可貼、繃帶、消毒液等基本物品。<br />
-                  </p>
+                      <h2>
+                        <img
+                          src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        急救包
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        急救包：生存遊戲中可能會遇到輕微的傷害或擦傷，擁有一個急救包能夠迅速處理這些小問題，避免因傷害而影響遊戲進行。急救包通常包括創可貼、繃帶、消毒液等基本物品。<br />
+                      </p>
 
-                  <h2>水壺與飲水系統</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    水壺：生存遊戲通常需要長時間活動，保持水分非常重要。攜帶水壺可以確保隨時能夠補充水分，避免脫水。<br />
-                    2. 水袋/水袋背包：有些玩家選擇使用水袋背包（如
-                    Camelbak），這種裝備可以讓玩家在不需要停下來的情況下，通過管子隨時喝水，非常方便。<br />
-                  </p>
+                      <h2>
+                        <img
+                          src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        水壺與飲水系統
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        水壺：生存遊戲通常需要長時間活動，保持水分非常重要。攜帶水壺可以確保隨時能夠補充水分，避免脫水。<br />
+                        2. 水袋/水袋背包：有些玩家選擇使用水袋背包（如
+                        Camelbak），這種裝備可以讓玩家在不需要停下來的情況下，通過管子隨時喝水，非常方便。<br />
+                      </p>
                     </v-col>
-              </v-row>
+                  </v-row>
 
-                  <h2>手電筒與照明設備</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    手電筒與照明設備
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -618,7 +901,14 @@
                     頭燈：頭燈是一種更方便的照明設備，玩家可以將其佩戴在頭上，這樣雙手就可以自由操作武器。<br />
                   </p>
 
-                  <h2>煙霧彈與閃光彈</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    煙霧彈與閃光彈
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1. 煙霧彈：煙霧彈常用於遮掩自己或隊伍的行蹤，為進攻或撤退創造機會。在一些
@@ -627,7 +917,14 @@
                     閃光彈：閃光彈可以用來迷惑敵人，造成視覺和聽覺的干擾，讓敵人短時間內無法清楚觀察到周圍情況。<br />
                   </p>
 
-                  <h2>環境偽裝與隱蔽裝備</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/3994356_dj_earphone_headphone_headset_listen_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    環境偽裝與隱蔽裝備
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -639,34 +936,66 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-7">
-                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center">
                       租借裝備和武器時應該注意的一些要點：
                     </h3>
                     <br />
                   </v-card-title>
 
-                  <h2>武器的選擇</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    槍枝類型：不同的遊戲場地會提供不同類型的氣槍，你需要根據自己的遊戲風格選擇合適的武器。<br />
-                    2.
-                    射擊模式：某些武器可能提供不同的射擊模式（如全自動、半自動等）。確認所選武器的射擊模式是否符合遊戲需求，並能夠在緊張的對抗中發揮最大效能。<br />
-                  </p>
+                  <v-row class="pb-10">
+                    <v-col cols="6" class="px-10">
+                      <h2>
+                        <img
+                          src="../../img/Icon/1851812_advertisement_advertising_agent_property_real estate_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        武器的選擇
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        槍枝類型：不同的遊戲場地會提供不同類型的氣槍，你需要根據自己的遊戲風格選擇合適的武器。<br />
+                        2.
+                        射擊模式：某些武器可能提供不同的射擊模式（如全自動、半自動等）。確認所選武器的射擊模式是否符合遊戲需求，並能夠在緊張的對抗中發揮最大效能。<br />
+                      </p>
 
-                  <h2>裝備的合適性</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    大小與舒適度：確保你租借的裝備（如 戰術服、護具、背包
-                    等）與你的身形相符，穿戴舒適。穿著不合適的裝備會影響你的靈活性，並可能影響遊戲表現。<br />
-                    1. 護具：確保護具（如胸甲、背甲、膝墊等）能夠提供良好的保護，並不妨礙活動。<br />
-                    2.
-                    背包：確認背包的容量是否足夠，是否能輕鬆攜帶所需的彈匣、水壺和其他個人物品。<br />
-                  </p>
+                      <h2>
+                        <img
+                          src="../../img/Icon/1851812_advertisement_advertising_agent_property_real estate_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        裝備的合適性
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        大小與舒適度：確保你租借的裝備（如 戰術服、護具、背包
+                        等）與你的身形相符，穿戴舒適。穿著不合適的裝備會影響你的靈活性，並可能影響遊戲表現。<br />
+                        1.
+                        護具：確保護具（如胸甲、背甲、膝墊等）能夠提供良好的保護，並不妨礙活動。<br />
+                        2.
+                        背包：確認背包的容量是否足夠，是否能輕鬆攜帶所需的彈匣、水壺和其他個人物品。<br />
+                      </p>
+                    </v-col>
+                    <v-col cols="6">
+                      <v-img
+                        src="../../img/bg.png"
+                        style="width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1)"
+                      ></v-img>
+                    </v-col>
+                  </v-row>
 
-                  <h2>配件與備品</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/1851812_advertisement_advertising_agent_property_real estate_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    配件與備品
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -677,7 +1006,14 @@
                     急救包：在任何活動中，擁有一個急救包都非常重要。雖然大多數的生存遊戲場地會有急救設施，但帶上一些基本的急救物品，如創可貼、消毒液等，依然是明智的選擇。<br />
                   </p>
 
-                  <h2>裝備租借條款</h2>
+                  <h2>
+                    <img
+                      src="../../img/Icon/1851812_advertisement_advertising_agent_property_real estate_icon.png"
+                      width="2%"
+                      style="vertical-align: -6px"
+                    />
+                    裝備租借條款
+                  </h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -686,34 +1022,65 @@
                     裝備歸還：了解租借裝備的歸還時間和要求，確保按時將裝備歸還。如果遺失或損壞了裝備，場地通常會要求賠償相應費用。<br />
                   </p>
 
-                  <h2>保養與使用</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    清潔與保養：如果租借的裝備在使用過程中出現問題（如氣槍不發射或卡彈），應該及時向場地工作人員報告。有些場地會提供基本的設備保養服務，或者在租借前會進行檢查，保證裝備在最佳狀態。
-                    <br />
-                    2.
-                    使用技巧：對於一些比較高級的裝備，如狙擊槍或帶瞄準鏡的步槍，建議事先了解如何使用這些設備，避免在遊戲中因操作不當而影響表現。
-                    <br />
-                  </p>
+                  <v-row class="pb-10">
+                    <v-col cols="6">
+                      <v-img
+                        src="../../img/png1.png"
+                        style="width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1)"
+                      ></v-img>
+                    </v-col>
+                    <v-col cols="6" class="px-10">
+                      <h2>
+                        <img
+                          src="../../img/Icon/1851812_advertisement_advertising_agent_property_real estate_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        保養與使用
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        清潔與保養：如果租借的裝備在使用過程中出現問題（如氣槍不發射或卡彈），應該及時向場地工作人員報告。有些場地會提供基本的設備保養服務，或者在租借前會進行檢查，保證裝備在最佳狀態。
+                        <br />
+                        2.
+                        使用技巧：對於一些比較高級的裝備，如狙擊槍或帶瞄準鏡的步槍，建議事先了解如何使用這些設備，避免在遊戲中因操作不當而影響表現。
+                        <br />
+                      </p>
 
-                  <h2>場地規範</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    遊戲規則：不同的生存遊戲場地會有不同的遊戲規則，確保你了解所有遊戲規則和限制，這樣才能有效地運用租借的裝備。某些場地可能對使用的武器有射程、功率等限制。
-                    <br />
-                    2.
-                    使用規範：某些場地可能會對裝備的外觀、顏色或裝飾有要求。請在租借前確認是否有特別的規定，以避免租借不合規的裝備。
-                    <br />
-                  </p>
+                      <h2>
+                        <img
+                          src="../../img/Icon/1851812_advertisement_advertising_agent_property_real estate_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        場地規範
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        遊戲規則：不同的生存遊戲場地會有不同的遊戲規則，確保你了解所有遊戲規則和限制，這樣才能有效地運用租借的裝備。某些場地可能對使用的武器有射程、功率等限制。
+                        <br />
+                        2.
+                        使用規範：某些場地可能會對裝備的外觀、顏色或裝飾有要求。請在租借前確認是否有特別的規定，以避免租借不合規的裝備。
+                        <br />
+                      </p>
 
-                  <h2>天氣與環境</h2>
-                  <br />
-                  <p class="mb-10" style="line-height: 40px">
-                    1.
-                    考慮天氣因素：在選擇裝備時，還需要考慮當天的天氣狀況。如果是在室外進行生存遊戲，天氣因素（如高溫、寒冷、下雨等）會對裝備的選擇有所影響。確保裝備具有適應各種天氣條件的能力（例如防水性或透氣性）。<br />
-                  </p>
+                      <h2>
+                        <img
+                          src="../../img/Icon/1851812_advertisement_advertising_agent_property_real estate_icon.png"
+                          width="5%"
+                          style="vertical-align: -6px"
+                        />
+                        天氣與環境
+                      </h2>
+                      <br />
+                      <p class="mb-10" style="line-height: 40px">
+                        1.
+                        考慮天氣因素：在選擇裝備時，還需要考慮當天的天氣狀況。如果是在室外進行生存遊戲，天氣因素（如高溫、寒冷、下雨等）會對裝備的選擇有所影響。確保裝備具有適應各種天氣條件的能力（例如防水性或透氣性）。<br />
+                      </p>
+                    </v-col>
+                  </v-row>
                 </v-card>
               </v-tabs-window-item>
             </v-tabs-window>
