@@ -1,7 +1,7 @@
 <template>
-  <v-container style="margin-left: 0px; margin-right: 0px; max-width: 1903px; height: 950px; position: relative; top:-80px">
+  <v-container style="margin-left: 0px; margin-right: 0px; max-width: 1903px; height: 950px; position: relative; top:-80px; left: -20px;">
     <div class="backgroundIMG"></div>
-    <v-row style="position: absolute; top: 220px; left: 680px; width: 600px; margin: auto;">
+    <v-row style="position: absolute; top: 220px; left: 720px; width: 600px; margin: auto;">
       <v-col cols="12">
         <h1 class="text-center">{{ $t('nav.register') }}</h1>
       </v-col>
@@ -138,9 +138,14 @@ meta:
 </route>
 
 <style>
+body {
+  overflow: hidden;
+}
+
 .backgroundIMG {
   background: url(../../img/i_want_you.png) no-repeat center;
-  height: 930px;
+  height: 940px;
+  width: 1950px;
   filter: opacity(0.3);
   background-size: 100vw 100vh;
   z-index: -1;

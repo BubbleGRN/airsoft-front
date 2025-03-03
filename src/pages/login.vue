@@ -114,10 +114,18 @@ meta:
 </route>
 
 <style>
+body {
+  overflow: hidden;
+}
+
 .BackgroundIMG {
+  position: absolute;
+  top: -70px;
+  left: -50px;
   background: url(../../img/login.jpg)no-repeat center;
-  height: 800px;
-  background-size: fill;
+  height: 940px;
+  width: 1900px;
+  background-size: cover;
   filter: opacity(0.3);
 }
 
