@@ -94,7 +94,7 @@
             </v-toolbar>
             <v-tabs-window v-model="tab" style="border: 20px solid #2d4b2a">
               <v-tabs-window-item value="option-1">
-                <v-card flat class="pa-6">
+                <v-card flat class="pa-6 px-15">
                   <v-card-title style="text-align: center">
                     <h3 style="font-style: italic; color: #2d4b2a">
                       氣槍是透過壓縮氣體發射BB彈等彈丸，模擬真實武器射擊，適用於生存遊戲、競技射擊等活動，安全且低傷害。
@@ -103,7 +103,7 @@
                   </v-card-title>
 
                   <v-row>
-                    <v-col cols="6" class="px-10" style="background-color: #d1c18b">
+                    <v-col cols="6" class="px-10">
                       <h2>氣槍的特點：</h2>
                       <br />
                       <p class="mb-10" style="line-height: 40px">
@@ -135,7 +135,7 @@
                         style="width: 100%; height: 100%; object-fit: cover"
                       ></v-img>
                     </v-col>
-                    <v-col cols="6" style="background-color: #d1c18b">
+                    <v-col cols="6">
                       <h2>氣槍的應用：</h2>
                       <br />
                       <p class="mb-10" style="line-height: 40px">
@@ -149,7 +149,7 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-2">
-                <v-card flat class="pa-6">
+                <v-card flat class="pa-6 px-15">
                   <v-card-title>
                     <h3 style="font-style: italic; color: #2d4b2a">
                       生存遊戲中的護具增加角色生存機會，減少傷害風險。護具種類、效果和材質依遊戲設定不同，但有共同特徵，以下是常見類型：
@@ -219,7 +219,7 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-3">
-                <v-card flat class="pa-6">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
                   <v-card-title>
                     <h3 style="font-style: italic; color: #2d4b2a">
                       生存遊戲中的背包用來存儲資源、工具、武器、藥品等物品，設計和功能根據遊戲不同而異，主要集中於物品管理和空間規劃。
@@ -299,10 +299,10 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-4">
-                <v-card flat class="pa-6">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a">
-                      在生存遊戲中，頭盔是常見的護具之一，主要用來保護角色的頭部，減少來自敵人攻擊或環境危險造成的傷害。頭盔的設計、效果以及功能根據遊戲的不同會有所不同，以下是有關頭盔的一些詳細介紹：
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">
+                      在生存遊戲中，頭盔是常見護具之一，主要用來保護頭部，減少敵人攻擊或環境危險造成的傷害。頭盔的設計、效果及功能根據遊戲不同而異。
                     </h3>
                     <br />
                   </v-card-title>
@@ -376,14 +376,16 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-5">
-                <v-card flat class="pa-6 scrollable-card">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a">
-                      在生存遊戲中，彈藥主要是指塑膠製的BB彈，通常為圓形，並可由槍枝發射。還有一種軟彈（泡沫彈），外型和材質不同，通常由泡沫或柔軟材料製成。
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">
+                      在生存遊戲中，彈藥主要是塑膠製的BB彈，通常圓形，並可由槍枝發射。還有軟彈（泡沫彈），由泡沫或柔軟材料製成。
                     </h3>
                     <br />
                   </v-card-title>
 
+              <v-row class="pb-5">
+                <v-col cols="6" class="px-10">
                   <h2>軟彈在生存遊戲中的使用</h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
@@ -404,6 +406,14 @@
                     3. 8mm BB彈：較少見，通常用於某些大型的 Airsoft
                     槍枝，這些彈藥比較重，飛行穩定性較好，但因為較大，因此其速度通常較慢。<br />
                   </p>
+                </v-col>
+                <v-col cols="6">
+                      <v-img
+                        src="../../img/airsoft-bbs-and-bb-loader.jpg"
+                        style="width: 100%; height: 100%; object-fit: cover"
+                      ></v-img>
+                    </v-col>
+                </v-row>
 
                   <h2>BB彈的材質</h2>
                   <br />
@@ -417,6 +427,14 @@
                     玩家選擇使用可降解的BB彈，這些BB彈在暴露於自然環境中時會分解，不會對環境造成污染。<br />
                   </p>
 
+                  <v-row class="pb-5">
+                    <v-col cols="6" class="px-10">
+                      <v-img
+                        src="../../img/recyable-bb.jpg"
+                        style="width: 100%; height: 100%; object-fit: cover"
+                      ></v-img>
+                    </v-col>
+                    <v-col cols="6">
                   <h2>BB彈的重量</h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
@@ -432,6 +450,8 @@
                     0.40g及以上：這些超重BB彈適用於高端的狙擊槍或高精度的射擊需求，通常用於長距離射擊，飛行穩定性非常高。
                     <br />
                   </p>
+                </v-col>
+                  </v-row>
 
                   <h2>BB彈的顏色</h2>
                   <br />
@@ -482,12 +502,14 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-6">
-                <v-card flat class="pa-6 scrollable-card">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a">常見的額外裝備和物品</h3>
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">常見的額外裝備和物品</h3>
                     <br />
                   </v-card-title>
 
+              <v-row class="pb-10">
+                <v-col cols="6" class="px-10">
                   <h2>戰術服與衣物</h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
@@ -507,6 +529,14 @@
                     掛包：掛包通常會用來掛在腰帶或背包上，方便快速取用彈匣、工具或其他必需品。這些包包一般是專為
                     Airsoft 目的設計，並且多數有不同的容量和分隔，便於收納和快速存取。<br />
                   </p>
+                </v-col>
+                <v-col cols="6">
+                  <v-img
+                    src="../../img/cover.jpg"
+                    style="width: 100%; height: 100%; object-fit: cover"
+                  ></v-img>
+                </v-col>
+              </v-row>
 
                   <h2>彈匣與彈匣帶</h2>
                   <br />
@@ -544,7 +574,15 @@
                     <br />
                   </p>
 
-                  <h2>射擊瞄具</h2>
+                  <v-row class="pb-10">
+                    <v-col cols="6" class="px-10">
+                      <v-img
+                        src="../../img/attachment.jpg"
+                        style="width: 100%; height: 100%; object-fit: cover"
+                      ></v-img>
+                    </v-col>
+                    <v-col cols="6">
+                      <h2>射擊瞄具</h2>
                   <br />
                   <p class="mb-10" style="line-height: 40px">
                     1.
@@ -568,6 +606,8 @@
                     2. 水袋/水袋背包：有些玩家選擇使用水袋背包（如
                     Camelbak），這種裝備可以讓玩家在不需要停下來的情況下，通過管子隨時喝水，非常方便。<br />
                   </p>
+                    </v-col>
+              </v-row>
 
                   <h2>手電筒與照明設備</h2>
                   <br />
@@ -599,9 +639,9 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-7">
-                <v-card flat class="pa-6">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px;">
                   <v-card-title>
-                    <h3 style="font-style: italic; color: #2d4b2a">
+                    <h3 style="font-style: italic; color: #2d4b2a; text-align: center;">
                       租借裝備和武器時應該注意的一些要點：
                     </h3>
                     <br />
