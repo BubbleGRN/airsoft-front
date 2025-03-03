@@ -2,7 +2,7 @@
   <v-container>
     <v-row style="position: relative; top: 80px">
       <v-col cols="12">
-        <h1 class="text-center" style="color: #d1c18b">{{ $t('nav.rent') }}</h1>
+        <h1 class="text-center">{{ $t('nav.rent') }}</h1>
       </v-col>
       <v-divider></v-divider>
       <v-col cols="12">
