@@ -1,0 +1,1 @@
+import{b as o}from"./route-block-B_A1xBdJ.js";import{ah as r,o as c,g as e}from"./index-CtDhdyze.js";import{V as n}from"./VContainer-CbU6f64m.js";const t={};function a(f,i){return c(),e(n)}typeof o=="function"&&o(t);const p=r(t,[["render",a]]);export{p as default};
