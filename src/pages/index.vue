@@ -1143,13 +1143,22 @@
             在未來，我們將持續更新遊戲內容，引入更多的角色故事、隱藏任務和全新的生存模式，為玩家帶來更加豐富和深刻的遊戲體驗。<br /><br />
 
             加入我們 Survivor's Quest
-            是為那些喜愛挑戰自己、探索複雜人性和解開神秘故事的玩家準備的遊戲。無論是策略、合作還是心理博弈，這裡都有你尋找的冒險。快來參與我們的世界，揭開這場生存與陰謀交織的旅程吧！<br /><br />
+            是為那些喜愛挑戰自己、探索複雜人性和解開神秘故事的玩家準備的遊戲。無論是策略、合作還是心理博弈，這裡都有你尋找的冒險。快來參與我們的世界，揭開這場生存與陰謀交織的旅程吧！<br /><br /><br>
+
+            <h2>聯絡我們</h2><br>
+            <v-btn
+              :href="`mailto:henry03169@yahoo.com.tw`"
+              prepend-icon="mdi-email"
+              color="primary"
+            >
+              發送郵件
+            </v-btn>
           </v-col>
         </v-row>
       </v-card-text>
     </v-card>
   </div>
-  <v-card style="background: gray; position: absolute; top: 5300px; width: 100vw">
+  <v-card style="background: gray; position: absolute; top: 5300px; width: 100vw; padding-bottom: 20px;">
     <v-card-title
       style="text-align: center; padding-top: 150px; padding-bottom: 50px; font-size: 40px"
       >生存遊戲影片</v-card-title
