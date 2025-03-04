@@ -150,7 +150,7 @@ const headers = computed(() => {
     { title: t('event.price'), key: 'price', sortable: true },
     { title: t('event.status'), key: 'status', sortable: true },
     { title: t('adminEvent.edit'), key: 'edit', sortable: false},
-    { title: t('event.join'), key: 'join', sortable: false },
+    // { title: t('event.join'), key: 'join', sortable: false },
   ]
 })
 

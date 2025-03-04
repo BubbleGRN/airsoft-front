@@ -23,10 +23,7 @@
     </v-carousel-item>
   </v-carousel>
   <div id="main-content">
-    <v-container style="padding: 0px; margin: 0px; position: absolute; top: 150px">
-      <v-row>
-        <v-col cols="12" style=""> </v-col>
-      </v-row>
+    <v-container style="padding: 0px; margin: 0px; position: absolute; top: 160px">
       <v-row>
         <v-col cols="12" class="d-flex justify-center">
           <v-text class="custom-text" style="color: #2d4b2a">詳細資訊 Details</v-text>
@@ -95,7 +92,7 @@
 
             <v-tabs-window v-model="tab" style="border: 20px solid #2d4b2a">
               <v-tabs-window-item value="option-1">
-                <v-card flat class="pa-6 px-15">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px">
                   <v-card-title style="text-align: center">
                     <h3 style="font-style: italic; color: #2d4b2a">
                       氣槍是透過壓縮氣體發射BB彈等彈丸，模擬真實武器射擊，適用於生存遊戲、競技射擊等活動，安全且低傷害。
@@ -164,7 +161,7 @@
               </v-tabs-window-item>
 
               <v-tabs-window-item value="option-2">
-                <v-card flat class="pa-6 px-15">
+                <v-card flat class="pa-6 scrollable-card px-15" style="max-height: 1352px">
                   <v-card-title>
                     <h3 style="font-style: italic; color: #2d4b2a">
                       生存遊戲中的護具增加角色生存機會，減少傷害風險。護具種類、效果和材質依遊戲設定不同，但有共同特徵，以下是常見類型：
@@ -1089,11 +1086,11 @@
       </v-row>
     </v-container>
   </div>
-  <v-img
+    <v-img
     src="../../img/sniper.jpg"
     cover
     style="width: 100vw; height: 100vh; position: absolute; top: 2650px"
-  ></v-img>
+    ></v-img>
   <div id="main-content" style="margin-top: 750px">
     <v-text
       class="custom-text"
